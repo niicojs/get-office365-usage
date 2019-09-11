@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch",
+      "program": "${workspaceRoot}/src/index.ts",
+      "cwd": "${workspaceRoot}",
+      "outFiles": ["${workspaceRoot}/bin/**/*.js"],
+      "sourceMaps": true,
+      "stopOnEntry": false,
+      "outputCapture": "std"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Get Token",
+      "program": "${workspaceRoot}/src/getusertoken.ts",
+      "cwd": "${workspaceRoot}",
+      "outFiles": ["${workspaceRoot}/bin/**/*.js"],
+      "sourceMaps": true,
+      "stopOnEntry": false,
+      "outputCapture": "std"
+    }
+  ]
+}

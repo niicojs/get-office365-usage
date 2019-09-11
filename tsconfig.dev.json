@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "bin",
+    "watch": true,
+    "lib": ["esnext"]
+  }
+}

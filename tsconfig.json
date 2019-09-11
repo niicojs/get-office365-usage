@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": false,
+    "rootDir": "src",
+    "outDir": "bin",
+    "watch": false,
+    "lib": ["esnext"]
+  }
+}
